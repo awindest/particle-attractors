@@ -3,7 +3,7 @@
 A simple port to Sveltekit from the three.js example [Compute Attractor Particles](https://threejs.org/examples/?q=tsl#webgpu_tsl_compute_attractors_particles).
 
 ## Demo
-Demonstration is [here](https://particle-attractors.vercel-app)
+Demonstration is [here](https://particle-attractors.vercel.app)
 
 ## Creating the project
 
