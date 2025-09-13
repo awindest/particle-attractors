@@ -1,38 +1,53 @@
-# sv
+# Particle Attractos
 
+A simple port to Sveltekit from the three.js example [Compute Attractor Particles](https://threejs.org/examples/?q=tsl#webgpu_tsl_compute_attractors_particles).
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+## About this project
 
 If you're seeing this, you've probably already done this step. Congrats!
 
 ```sh
 # create a new project in the current directory
-npx sv create
+npx sv create particle-attractors
 
-# create a new project in my-app
-npx sv create my-app
+# inputs
+# basic sveltekit - yes
+# typescript - yes
+# eslint and prettier - yes
+
+# go to directory
+cd particle-attractors
+
+# install three.js
+pnpm i three
+
+# install types
+pnpm i @types/three
 ```
+Copied the code to main page: /src/routes/+page.svelte 
 
-## Developing
+Added event handlers to show/hide transform controls as I think it is cleaner.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Building, gitting
+
+Once I was happy with the results:
 
 ```sh
-npm run dev
+pnpm build
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+gh repo create --source=. --public --push particle-attractor
+
 ```
 
-## Building
+## Deploy
 
-To create a production version of your app:
+Login to vercel.com and create a new project from the github repository
 
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+(github and vercel were previously linked)
