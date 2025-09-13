@@ -1,11 +1,8 @@
 # Particle Attractos
 
 A simple port to Sveltekit from the three.js example [Compute Attractor Particles](https://threejs.org/examples/?q=tsl#webgpu_tsl_compute_attractors_particles).
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## About this project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Creating the project
 
 ```sh
 # create a new project in the current directory
@@ -48,6 +45,6 @@ gh repo create --source=. --public --push particle-attractor
 
 ## Deploy
 
-Login to vercel.com and create a new project from the github repository
+Login to vercel.com and create a new project from the github repository.
 
-(github and vercel were previously linked)
+(github and vercel were previously linked).
