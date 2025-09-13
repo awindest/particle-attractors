@@ -1,6 +1,9 @@
-# Particle Attractos
+# Particle Attractors
 
 A simple port to Sveltekit from the three.js example [Compute Attractor Particles](https://threejs.org/examples/?q=tsl#webgpu_tsl_compute_attractors_particles).
+
+## Demo
+Demonstration is [here](https://particle-attractors.vercel-app)
 
 ## Creating the project
 
@@ -12,6 +15,7 @@ npx sv create particle-attractors
 # basic sveltekit - yes
 # typescript - yes
 # eslint and prettier - yes
+# use pnpm - yes
 
 # go to directory
 cd particle-attractors
